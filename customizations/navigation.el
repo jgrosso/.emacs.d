@@ -1,0 +1,7 @@
+(load-file "navigation/setup-uniquify.el")
+(load-file "navigation/setup-recentf.el")
+(load-file "navigation/setup-ido.el")
+(load-file "navigation/setup-smex.el")
+(load-file "navigation/setup-projectile.el")
+(load-file "navigation/switch-to-previous-buffer.el")
+(load-file "navigation/toggle-between-implementation-and-spec.el")

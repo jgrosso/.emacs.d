@@ -1,0 +1,24 @@
+.DS_Store
+
+# auto-complete
+ac-comphist.dat
+
+# backups
+backups/
+*~
+
+# eshell
+eshell/history
+eshell/lastdir
+
+# ido
+ido.last
+
+# places
+places
+
+# projectile
+projectile-bookmarks.eld
+
+# recentf
+recentf
