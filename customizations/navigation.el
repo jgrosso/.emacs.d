@@ -5,3 +5,4 @@
 (load "navigation/setup-projectile.el")
 (load "navigation/switch-to-previous-buffer.el")
 (load "navigation/toggle-between-implementation-and-spec.el")
+(load "navigation/search.el")
