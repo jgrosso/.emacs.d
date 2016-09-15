@@ -2,6 +2,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 (load "packages.el")
+(load "gitkraken.el")
 (load "utils.el")
 (load "shell-integration.el")
 (load "navigation.el")
