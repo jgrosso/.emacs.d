@@ -1,7 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
-
 (load "packages.el")
 (load "utils.el")
 (load "shell-integration.el")

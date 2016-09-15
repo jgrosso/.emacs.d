@@ -10,4 +10,4 @@
 ;; https://www.github.com/lewang/flx
 (setq gc-cons-threshold 20000000)
 
-(load-path "misc/setup-edit-server.el")
+(load "misc/setup-edit-server.el")
