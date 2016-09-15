@@ -24,4 +24,8 @@ places
 projectile-bookmarks.eld
 
 # recentf
+.recentf
 recentf
+
+# smex
+.smex-items
