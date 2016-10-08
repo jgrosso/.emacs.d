@@ -18,6 +18,7 @@
     markdown-mode
     paredit
     projectile
+    purescript-mode
     rainbow-delimiters
     smex
     smooth-scrolling
