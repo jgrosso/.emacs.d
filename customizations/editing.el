@@ -2,6 +2,8 @@
 
 (global-flycheck-mode)
 
+(global-subword-mode)
+
 (add-to-list 'default-frame-alist '(font . "Input"))
 
 (load "editing/setup-hippie-expand.el")
