@@ -4,7 +4,7 @@
 
 (global-subword-mode)
 
-(add-to-list 'default-frame-alist '(font . "Input"))
+(add-to-list 'default-frame-alist '(font . "InputMono"))
 
 (load "editing/setup-hippie-expand.el")
 (load "editing/search.el")
