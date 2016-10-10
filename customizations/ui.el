@@ -32,4 +32,5 @@
   (balance-windows))
 (ad-activate 'split-window-horizontally)
 
-(smooth-scrolling-mode 1)
+(setq mouse-wheel-scroll-amount '(5 ((shift) . 5) ((control) . nil)))
+(setq mouse-wheel-progressive-speed nil)
