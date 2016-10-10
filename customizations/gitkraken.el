@@ -5,7 +5,7 @@
 (defvar gk/implementation-suffix)
 (defvar gk/spec-suffix)
 (setq user-folder "/Users/joshuag/")
-(setq gk/prefix (concat user-folder "GitKraken/"))
+(setq gk/prefix (concat user-folder "repos/" "GitKraken/"))
 (setq gk/implementation-folder "src/js/")
 (setq gk/spec-folder "spec/unitTests/")
 (setq gk/implementation-suffix ".js")
