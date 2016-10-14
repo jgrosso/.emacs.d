@@ -1,6 +1,5 @@
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.jsx?$" . web-mode))
-(add-hook 'web-mode-hook 'subword-mode)
 (add-hook 'web-mode-hook
           (lambda ()
             (web-mode-set-content-type "jsx")))
