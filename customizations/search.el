@@ -1,3 +1,8 @@
+(global-set-key (kbd "C-s") 'isearch-forward-regexp)
+(global-set-key (kbd "C-r") 'isearch-backward-regexp)
+(global-set-key (kbd "C-M-s") 'isearch-forward)
+(global-set-key (kbd "C-M-r") 'isearch-backward)
+
 (defun gk/src-grep (pattern files)
   "Recursively grep for PATTERN in the GitKraken source directory."
   (interactive "sPattern: \nsFiles: ")
