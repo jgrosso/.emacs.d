@@ -1,1 +1,4 @@
-(add-hook 'purescript-mode 'haskell-indentation-mode)
+(add-hook 'purescript-mode
+          (lambda ()
+            (haskell-indentation-mode)
+            (turn-on-purescript-input-method)))
