@@ -31,6 +31,13 @@
          (gk/find-matching-implementation relative-path)
        (gk/find-matching-spec relative-path)))))
 (defun gk/open-matching-spec-or-implementation ()
+  "Open the matching spec or implementation file matching the currently open file."
   (interactive)
   (find-file-other-window (gk/find-matching-spec-or-implementation (buffer-file-name (current-buffer)))))
 (global-set-key (kbd "M-n t") 'gk/open-matching-spec-or-implementation)
+
+(defun gk/find-component-usages ()
+  "Find all usages of the component defined in the currently open file."
+  (interactive)
+  (let ((file-name (delete-regexp-in-string ".*/" (buffer-file-name (current-buffer)))))
+    (gk/src-grep (concat "<" (delete-regexp-in-string (convert-string-to-regexp ".jsx") file-name)))))
