@@ -54,6 +54,7 @@
    (quote
     (company-math psc-ide haskell-mode purescript-mode web-mode tagedit smooth-scrolling smex rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous fsharp-mode flx-ido exec-path-from-shell elm-mode elixir-mode edit-server clojure-mode-extra-font-locking cider aggressive-indent ac-emmet)))
  '(purescript-mode-hook nil)
+    (less-css-mode evil-visual-mark-mode evil company-math psc-ide haskell-mode purescript-mode web-mode tagedit smooth-scrolling smex rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous fsharp-mode flx-ido exec-path-from-shell elm-mode elixir-mode edit-server clojure-mode-extra-font-locking cider aggressive-indent ac-emmet)))
  '(safe-local-variable-values
    (quote
     ((psc-ide-source-globs "src/**/*.purs" "bower_components/purescript-*/src/**/*.purs")))))

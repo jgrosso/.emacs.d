@@ -22,6 +22,7 @@
     flycheck
     fsharp-mode
     ido-ubiquitous
+    less-css-mode
     magit
     markdown-mode
     paredit
