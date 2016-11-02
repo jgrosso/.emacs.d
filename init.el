@@ -18,7 +18,6 @@
 (load "gitkraken")
 (load "indentation")
 (load "internals")
-(load "keyboard-macros")
 (load "minibuffer")
 (load "mouse")
 (load "navigation")
