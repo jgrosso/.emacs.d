@@ -8,6 +8,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
+(load "autocompletion")
 (load "backups")
 (load "clipboard")
 (load "comments")
@@ -27,7 +28,6 @@
 (load "setup-edit-with-emacs")
 (load "setup-flycheck")
 (load "setup-haskell")
-(load "setup-hippie-expand")
 (load "setup-ido")
 (load "setup-lisp")
 (load "setup-prettify-symbols")

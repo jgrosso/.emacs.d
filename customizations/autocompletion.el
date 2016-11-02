@@ -5,3 +5,5 @@
 	try-expand-dabbrev-from-kill
 	try-complete-lisp-symbol-partially
 	try-complete-lisp-symbol))
+
+(global-set-key (kbd "C-c SPC") 'company-complete)
