@@ -33,3 +33,6 @@ recentf
 
 # smex
 .smex-items
+
+# vendor
+vendor/
