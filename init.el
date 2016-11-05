@@ -5,6 +5,9 @@
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
+; Should contain:
+; * apib-mode.el
+; * evil/*
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
@@ -27,6 +30,7 @@
 (load "setup-api-blueprint")
 (load "setup-clojure")
 (load "setup-edit-with-emacs")
+(load "setup-evil")
 (load "setup-flycheck")
 (load "setup-haskell")
 (load "setup-lisp")
@@ -63,12 +67,34 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (less-css-mode evil-visual-mark-mode evil company-math psc-ide haskell-mode purescript-mode web-mode tagedit smooth-scrolling smex rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous fsharp-mode flx-ido exec-path-from-shell elm-mode elixir-mode edit-server clojure-mode-extra-font-locking cider aggressive-indent ac-emmet)))
+    (anti-zenburn-theme 2048-game helm tangotango-theme zenburn-theme ample-theme cyberpunk-theme base16-theme railscasts-reloaded-theme railscasts-theme color-theme-railscasts atom-one-dark-theme solarized-theme monokai-theme material-theme w3 less-css-mode evil-visual-mark-mode evil company-math psc-ide haskell-mode purescript-mode web-mode tagedit smooth-scrolling smex rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous fsharp-mode flx-ido exec-path-from-shell elm-mode elixir-mode edit-server clojure-mode-extra-font-locking cider aggressive-indent ac-emmet)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(purescript-mode-hook nil t)
  '(safe-local-variable-values
    (quote
-    ((psc-ide-source-globs "src/**/*.purs" "bower_components/purescript-*/src/**/*.purs")))))
+    ((psc-ide-source-globs "src/**/*.purs" "bower_components/purescript-*/src/**/*.purs"))))
+ '(vc-annotate-background "#2B2B2B")
+ '(vc-annotate-color-map
+   (quote
+    ((20 . "#BC8383")
+     (40 . "#CC9393")
+     (60 . "#DFAF8F")
+     (80 . "#D0BF8F")
+     (100 . "#E0CF9F")
+     (120 . "#F0DFAF")
+     (140 . "#5F7F5F")
+     (160 . "#7F9F7F")
+     (180 . "#8FB28F")
+     (200 . "#9FC59F")
+     (220 . "#AFD8AF")
+     (240 . "#BFEBBF")
+     (260 . "#93E0E3")
+     (280 . "#6CA0A3")
+     (300 . "#7CB8BB")
+     (320 . "#8CD0D3")
+     (340 . "#94BFF3")
+     (360 . "#DC8CC3"))))
+ '(vc-annotate-very-old-color "#DC8CC3"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
