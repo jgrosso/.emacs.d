@@ -6,7 +6,7 @@
   (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
 (global-set-key (kbd "C-c o k") 'kill-other-buffers)
 
-(defun reset-buffers-and-windows ()
+(defun kill-all-buffers ()
   "Kill all buffers."
   (interactive)
   (message "Killed all buffers!")
