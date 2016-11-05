@@ -25,6 +25,7 @@
     less-css-mode
     magit
     markdown-mode
+    material-theme
     paredit
     projectile
     psc-ide
@@ -34,6 +35,7 @@
     smooth-scrolling
     tagedit
     web-mode))
+    zenburn-theme))
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
