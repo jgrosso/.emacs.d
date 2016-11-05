@@ -21,6 +21,7 @@
     flx-ido
     flycheck
     fsharp-mode
+    helm
     ido-ubiquitous
     less-css-mode
     magit
@@ -34,7 +35,7 @@
     smex
     smooth-scrolling
     tagedit
-    web-mode))
+    web-mode
     zenburn-theme))
 
 (dolist (p my-packages)
