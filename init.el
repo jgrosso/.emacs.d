@@ -67,7 +67,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (anti-zenburn-theme 2048-game helm tangotango-theme zenburn-theme ample-theme cyberpunk-theme base16-theme railscasts-reloaded-theme railscasts-theme color-theme-railscasts atom-one-dark-theme solarized-theme monokai-theme material-theme w3 less-css-mode evil-visual-mark-mode evil company-math psc-ide haskell-mode purescript-mode web-mode tagedit smooth-scrolling smex rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous fsharp-mode flx-ido exec-path-from-shell elm-mode elixir-mode edit-server clojure-mode-extra-font-locking cider aggressive-indent ac-emmet)))
+    (swiper-helm counsel ivy anti-zenburn-theme 2048-game helm tangotango-theme zenburn-theme ample-theme cyberpunk-theme base16-theme railscasts-reloaded-theme railscasts-theme color-theme-railscasts atom-one-dark-theme solarized-theme monokai-theme material-theme w3 less-css-mode evil-visual-mark-mode evil company-math psc-ide haskell-mode purescript-mode web-mode tagedit smooth-scrolling smex rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous fsharp-mode flx-ido exec-path-from-shell elm-mode elixir-mode edit-server clojure-mode-extra-font-locking cider aggressive-indent ac-emmet)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(purescript-mode-hook nil t)
  '(safe-local-variable-values

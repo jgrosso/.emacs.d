@@ -13,6 +13,7 @@
     clojure-mode
     clojure-mode-extra-font-locking
     cider
+    counsel
     edit-server
     elixir-mode
     elm-mode
@@ -23,6 +24,7 @@
     fsharp-mode
     helm
     ido-ubiquitous
+    ivy
     less-css-mode
     magit
     markdown-mode
@@ -34,6 +36,8 @@
     rainbow-delimiters
     smex
     smooth-scrolling
+    swiper
+    swiper-helm
     tagedit
     web-mode
     zenburn-theme))
