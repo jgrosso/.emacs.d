@@ -248,6 +248,5 @@
   (prettify-symbols-mode))
 
 (add-hook 'haskell-mode-hook 'prettify-fp-symbols)
-(add-hook 'purescript-mode-hook 'prettify-fp-symbols)
 (add-hook 'clojure-mode-hook 'prettify-fp-symbols)
 (add-hook 'emacs-lisp-mode 'prettify-fp-symbols)
