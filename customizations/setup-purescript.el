@@ -1,7 +1,7 @@
 (require 'psc-ide)
 (add-hook 'purescript-mode-hook
           (lambda ()
+            (turn-on-purescript-indent)
             (psc-ide-mode)
             (company-mode)
-            (purescript-indent-mode)
             (prettify-fp-symbols)))
