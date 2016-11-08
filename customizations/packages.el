@@ -29,6 +29,7 @@
     magit
     markdown-mode
     material-theme
+    matlab-mode
     paredit
     projectile
     psc-ide
