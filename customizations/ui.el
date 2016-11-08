@@ -1,6 +1,7 @@
 (menu-bar-mode -1)
 
 (global-linum-mode)
+(setq column-number-mode t)
 
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
