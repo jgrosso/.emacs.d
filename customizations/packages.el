@@ -31,6 +31,7 @@
     material-theme
     matlab-mode
     paredit
+    parinfer
     projectile
     psc-ide
     purescript-mode
