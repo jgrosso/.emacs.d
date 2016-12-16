@@ -11,6 +11,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
+; Load this first for initial runs
+(load "packages")
+
 (load "autocompletion")
 (load "backups")
 (load "buffers")
@@ -25,7 +28,6 @@
 (load "mouse")
 (load "narrowing")
 (load "navigation")
-(load "packages")
 (load "search")
 (load "setup-api-blueprint")
 (load "setup-clojure")
