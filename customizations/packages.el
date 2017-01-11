@@ -22,6 +22,7 @@
     flx-ido
     flycheck
     fsharp-mode
+    ghc
     helm
     ido-ubiquitous
     ivy
