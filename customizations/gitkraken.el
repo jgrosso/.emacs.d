@@ -11,3 +11,4 @@
 (setq gk/spec-folder "spec/unitTests/")
 (setq gk/implementation-suffix ".js")
 (setq gk/spec-suffix "-spec.js")
+(setq gk/resources-folder "src/strings/")
