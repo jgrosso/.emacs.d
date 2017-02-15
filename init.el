@@ -33,6 +33,7 @@
 (load "search")
 (load "setup-api-blueprint")
 (load "setup-clojure")
+(load "setup-common-lisp")
 (load "setup-edit-with-emacs")
 (load "setup-evil")
 (load "setup-flycheck")
