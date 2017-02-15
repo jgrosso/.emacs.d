@@ -1,6 +1,7 @@
 (require 'web-mode)
 
 (add-to-list 'auto-mode-alist '("\\.jsx?$" . web-mode))
+(add-hook 'web-mode-hook #'prettify-fp-symbols)
 
 (add-to-list 'auto-mode-alist '("\\.html.erb?$" . web-mode))
 
