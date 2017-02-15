@@ -29,9 +29,3 @@
          (quote ([M-S-right backspace 105 109 112 111 114 116 19 61 return backspace 102 114 111 109 19 39 return left backspace backspace backspace backspace backspace backspace backspace backspace 19 41 return backspace] 0 "%d"))
          arg)))
 (global-set-key (kbd "C-c c") 'commonjs-to-import)
-
-(defun gk/setup-eslint ()
-  (let ((eslint-location (concat gk/prefix "node_modules/.bin/eslint")))
-    (setq-local flycheck-javascript-eslint-executable eslint-location)
-    (setq-local flycheck-eslintrc (concat gk/prefix ".eslintrc"))))
-(add-hook 'flycheck-mode-hook #'gk/setup-eslint)
