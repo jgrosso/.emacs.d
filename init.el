@@ -45,6 +45,7 @@
 (load "setup-sh")
 (load "setup-uniquify")
 (load "setup-web")
+(load "setup-wolfram")
 (load "shell-integration")
 (load "themes")
 (load "ui")
