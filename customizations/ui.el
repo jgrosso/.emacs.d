@@ -6,9 +6,7 @@
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
 
-(setq
- save-interprogram-paste-before-kill t
- apropos-do-all t)
+(setq apropos-do-all t)
 
 (blink-cursor-mode 0)
 
