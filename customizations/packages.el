@@ -31,6 +31,7 @@
     markdown-mode
     material-theme
     matlab-mode
+    multiple-cursors-mode
     paredit
     parinfer
     projectile
