@@ -31,19 +31,21 @@
     markdown-mode
     material-theme
     matlab-mode
-    multiple-cursors-mode
+    multiple-cursors
     paredit
     parinfer
     projectile
     psc-ide
     purescript-mode
     rainbow-delimiters
+    slime
     smex
     smooth-scrolling
     swiper
     swiper-helm
     tagedit
     web-mode
+    wolfram
     zenburn-theme))
 
 (dolist (p my-packages)
