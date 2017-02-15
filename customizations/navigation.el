@@ -36,9 +36,3 @@
   (find-file-other-window (gk/find-matching-spec-or-implementation (buffer-file-name (current-buffer))))
   (toggle-window-split))
 (global-set-key (kbd "M-n t") 'gk/open-matching-spec-or-implementation)
-
-(defun gk/find-component-usages ()
-  "Find all usages of the component defined in the currently open file."
-  (interactive)
-  (let ((file-name (delete-regexp-in-string ".*/" (buffer-file-name (current-buffer)))))
-    (gk/src-grep (concat "<" (delete-regexp-in-string (convert-string-to-regexp ".jsx") file-name)))))
