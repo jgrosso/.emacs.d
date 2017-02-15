@@ -33,7 +33,6 @@
 (defun gk/open-matching-spec-or-implementation ()
   "Open the matching spec or implementation file matching the currently open file."
   (interactive)
-  (find-file-other-window (gk/find-matching-spec-or-implementation (buffer-file-name (current-buffer)))))
   (find-file-other-window (gk/find-matching-spec-or-implementation (buffer-file-name (current-buffer))))
   (toggle-window-split))
 (global-set-key (kbd "M-n t") 'gk/open-matching-spec-or-implementation)
