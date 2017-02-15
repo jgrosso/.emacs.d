@@ -25,6 +25,7 @@
 (load "indentation")
 (load "internals")
 (load "minibuffer")
+(load "mode-bar")
 (load "mouse")
 (load "narrowing")
 (load "navigation")
