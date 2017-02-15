@@ -4,7 +4,7 @@
       (ns-get-selection-internal 'CLIPBOARD)
     (quit nil)))
 
-(setq x-select-enable-clipboard nil)
 (setq mouse-drag-copy-region nil)
+(fset 'evil-visual-update-x-selection 'ignore)
 
 (setq save-interprogram-paste-before-kill t)

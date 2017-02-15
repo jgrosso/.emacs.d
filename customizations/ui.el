@@ -7,8 +7,8 @@
   (scroll-bar-mode -1))
 
 (setq
- apropos-do-all t
- mouse-yank-at-point t)
+ save-interprogram-paste-before-kill t
+ apropos-do-all t)
 
 (blink-cursor-mode 0)
 
