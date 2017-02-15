@@ -11,8 +11,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/customizations")
 
-; Load this first for initial runs
-(load "packages")
+; Load utils.el first so that other files can reference it
+(load "utils")
 
 (load "autocompletion")
 (load "backups")
@@ -28,6 +28,7 @@
 (load "mouse")
 (load "narrowing")
 (load "navigation")
+(load "packages")
 (load "search")
 (load "setup-api-blueprint")
 (load "setup-clojure")
@@ -47,7 +48,6 @@
 (load "shell-integration")
 (load "themes")
 (load "ui")
-(load "utils")
 (load "whitespace")
 (load "windows")
 
