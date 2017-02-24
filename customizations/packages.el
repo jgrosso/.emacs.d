@@ -39,6 +39,8 @@
     rainbow-delimiters
     slime
     smex
+    smart-mode-line
+    smart-mode-line-powerline-theme
     smooth-scrolling
     swiper
     swiper-helm
